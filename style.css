@@ -531,16 +531,17 @@ footer p{
     
 }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
+    .home-background{
+        width: 100%;
+    }
     .nav {
         float: right;
-        margin-top: -80px;
-        position: relative;
+        position: absolute;
         text-align: center;
     }
 
     .nav-list {
-        
         display: block;
         margin-bottom: 15px;
     }
@@ -553,10 +554,6 @@ footer p{
     .welcome-text {
         margin-top: 700px;
         text-align: center;
-    }
-
-    .welcome-text h2 {
-        font-size: 3rem;
     }
 
     .welcome-text h3 {
@@ -572,8 +569,8 @@ footer p{
     }
 
     .school, .aboutme {
-        width: 90%;
-        margin-left: auto;
+        width: 80%;
+        margin-left: 10px;
         margin-right: auto;
     }
 
@@ -604,7 +601,7 @@ footer p{
 
     .contactDiv {
         margin-bottom: 60px;
-        width: 70%;
+        width: 60%;
     }
     .about-para p{
         width: 80%;
@@ -613,10 +610,10 @@ footer p{
    }
    .bubbles span{
     position: relative;
-    width: 6px;
-    height: 10px;
+    width: 5px;
+    height: 9px;
     background: #ffffff;
-    margin: 0 2px;
+    margin: 0 1px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px  #e4e1e1;
     animation: bubble 25s linear infinite;
@@ -627,8 +624,19 @@ footer p{
     
 }
 .contactDiv h3{
-    font-size: 28px;
+    font-size: 22px;
     
+}
+iframe{
+    width: 100%;
+}
+.welcome-text h2{
+    font-size: 3rem;
+    position: absolute;
+    left: 12%;
+    padding-bottom: 10px;
+    
+
 }
 }
  
